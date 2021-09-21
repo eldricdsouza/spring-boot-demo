@@ -14,5 +14,12 @@ public class HelloController {
     public String getGreetings() {
         return "HELLO WORLD FROM SPRING BOOT";
     }
+
+    @RequestMapping("/login")
+    public String loginUser(@RequestParam String user) {
+        return "User has successfully logged in " +
+                user;
+    }
+
 }
 
