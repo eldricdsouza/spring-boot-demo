@@ -1,10 +1,10 @@
-package com.aviva.demo;
+package com.eltek.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BootDemoApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

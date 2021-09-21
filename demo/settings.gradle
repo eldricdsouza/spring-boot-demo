@@ -1,13 +1,2 @@
-pluginManagement {
-	repositories {
-		maven {
-			credentials {
-				username nexus_username
-				password nexus_password
-			}
-			url "http://ff-nexus-01:8081/nexus/content/groups/public"
-		}
-	}
-}
-
 rootProject.name = 'demo'
+
